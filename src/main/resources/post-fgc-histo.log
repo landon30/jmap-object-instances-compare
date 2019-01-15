@@ -1,0 +1,19 @@
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:      27706110      886595520  java.util.HashMap$Node
+   2:        253647      449697120  [B
+   3:        937233      221166384  [Ljava.util.HashMap$Node;
+   4:       9313813      149021008  java.lang.Integer
+   5:       2858923      137228304  java.util.HashMap
+   6:         84912       70145192  [I
+   7:        733137       69692104  [C
+   8:        692810       56170080  [Ljava.lang.Object;
+   9:         80457       27033552  [Lcom.landon30.gs.model.player.attribute.AttrType;
+  10:       1528851       24461616  java.util.HashSet
+  11:        936960       22487040  java.util.ArrayList
+  11:        734411       17625864  java.lang.String
+  13:        156289       17504368  com.landon30.gs.model.hero.Hero
+  14:        731725       11707600  java.util.HashMap$EntrySet
+  15:        287943        9214176  com.landon30.gs.model.player.HeroMirror
+Total      53065776     2380073168

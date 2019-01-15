@@ -1,0 +1,17 @@
+
+ num     #instances         #bytes  class name
+----------------------------------------------
+   1:      75464447     2414862304  java.util.HashMap$Node
+   2:        576018     2160610696  [B
+   3:       4282445      774654088  [C
+   4:       2545325      611801488  [Ljava.util.HashMap$Node;
+   5:       1286847      432380592  [Lcom.landon30.gs.model.player.attribute.AttrType;
+   6:      25196534      403144544  java.lang.Integer
+   7:       5956778      285925344  java.util.HashMap
+   8:       2325867      121091416  [Ljava.lang.Object;
+   9:        256842      110955744  [Lcom.landon30.gs.model.daily.DailyEventType;
+  10:        253981       98178824  [I
+  11:       3757709       90185016  java.lang.String
+  12:       2313095       55514280  java.util.ArrayList
+  13:        460081       51529072  com.landon30.gs.model.hero.Hero
+Total     144069669     8179720056
