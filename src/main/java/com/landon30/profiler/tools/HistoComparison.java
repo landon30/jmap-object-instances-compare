@@ -39,4 +39,10 @@ public class HistoComparison {
                 + format.format(gcPercent) + ", instanceDiff=" + instanceDiff + ", numDiff="
                 + numDiff + ", bytesDiff=" + bytesDiff + "]";
     }
+
+    // 获取gc后的实例数目
+    public long getPostGCInstances() {
+        String postGCInstances = instanceDiff.substring(0, instanceDiff.indexOf("/"));
+        return Long.valueOf(postGCInstances);
+    }
 }

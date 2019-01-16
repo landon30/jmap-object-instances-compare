@@ -129,4 +129,11 @@ public class HistoDiffToolTest {
 
         System.out.println(p.getProperty("preGCHistoName"));
     }
+
+    @Test
+    public void testParseDiffStr() {
+        String diff = "129000/128";
+        String postGCInstances = diff.substring(0, diff.indexOf("/"));
+        System.out.println(postGCInstances);
+    }
 }

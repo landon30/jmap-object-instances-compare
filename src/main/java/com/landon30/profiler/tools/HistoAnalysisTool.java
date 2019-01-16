@@ -55,6 +55,11 @@ public class HistoAnalysisTool {
                 .forEach(v -> pw3.println(v));
         pw3.close();
 
+        PrintWriter pw4 = new PrintWriter("gen/diff_threshold.log");
+        diffMap.values().stream().filter(v -> v.getPostGCInstances() >= instanceThreshold)
+                .forEach(v -> pw4.println(v));
+        pw4.close();
+
         System.out.println("HistoAnalysisTool.end");
     }
 
